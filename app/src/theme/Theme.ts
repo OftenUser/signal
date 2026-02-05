@@ -1,14 +1,14 @@
 export interface Theme {
-  isLightContent: boolean // if true, text color is light and background color is dark
+  isLightContent: boolean // If true, text color is light and background color is dark
   font: string
   monoFont: string
   canvasFont: string
   themeColor: string
-  onSurfaceColor: string // content color on themeColor
+  onSurfaceColor: string // Content color on themeColor
   darkBackgroundColor: string
   backgroundColor: string
   secondaryBackgroundColor: string
-  editorBackgroundColor: string // control pane / arrange view / tempo editor
+  editorBackgroundColor: string // Control Pane / Arrange View / Tempo Editor
   editorGridColor: string
   editorSecondaryGridColor: string
   dividerColor: string
