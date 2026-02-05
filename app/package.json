@@ -1,7 +1,7 @@
 {
-  "name": "signal",
+  "name": "Signal",
   "version": "0.0.1",
-  "description": "A friendly music sequencer application for OS X and Windows.",
+  "description": "A friendly music sequencer application for MacOS X and Windows.",
   "scripts": {
     "dev": "vite",
     "build": "vite build && node generate-service-worker.js",
