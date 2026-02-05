@@ -2,7 +2,7 @@ import { TrackId } from "@signal-app/core"
 
 /**
 
-  Two modes are switched by user operations
+  2 modes are switched by user operations
 
   ## Mute Mode
 
@@ -14,7 +14,7 @@ import { TrackId } from "@signal-app/core"
   Transitions to this mode when any track is soloed
   Mutes all tracks except the specified one, but
   when additionally soloing other tracks,
-  unmutes those tracks (independent from mute mode settings)
+  unmutes those tracks (Independent from mute mode settings)
 
   Transitions back to mute mode when
   all tracks' solo states are cleared
@@ -35,7 +35,7 @@ export namespace TrackMute {
     (trackId: TrackId, isMute: boolean) =>
     (trackMute: TrackMute): TrackMute => {
       if (isSoloMode(trackMute)) {
-        return trackMute // do nothing
+        return trackMute // Do nothing
       }
       return {
         ...trackMute,
